@@ -1,0 +1,21 @@
+ Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Ignore DBs and LanceDB data
+my_local_lancedb/
+derma_agent.sqlite
+tmp/
+uv.lock
+
+# Ignore PDFs (optional – can be hosted elsewhere)
+resources/*.pdf
+resources/*.pdf
