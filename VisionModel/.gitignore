@@ -1,21 +1,24 @@
- Python-generated files
+# Python bytecode
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build and distribution
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
 # Virtual environments
-.venv
+.venv/
 .env
 
-# Ignore DBs and LanceDB data
-my_local_lancedb/
-derma_agent.sqlite
-tmp/
-uv.lock
 
-# Ignore PDFs (optional – can be hosted elsewhere)
+
+
+# Ignore PDFs in resources
 resources/*.pdf
-resources/*.pdf
+
+# VS Code workspace settings (optional, if personal)
+*.code-workspace
